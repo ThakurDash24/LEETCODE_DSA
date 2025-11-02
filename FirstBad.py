@@ -1,14 +1,7 @@
 # The isBadVersion API is already defined for you.
-# @param version, an integer
-# @return a bool
-# def isBadVersion(version):
 SECRET_FIRST_BAD = 20140
 
 def isBadVersion(version: int) -> bool:
-    """
-    This function simulates the LeetCode API.
-    Returns True if the 'version' is bad, based on the SECRET_FIRST_BAD.
-    """
     return version >= SECRET_FIRST_BAD
 
 class Solution(object):
